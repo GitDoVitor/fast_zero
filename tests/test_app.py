@@ -78,7 +78,7 @@ def test_update_user(client):
 
 def test_update_user_with_error(client):
     response = client.put(
-        '/users/1',
+        '/users/125',
         json={
             'username': 'bob',
             'email': 'bob@example.com',
